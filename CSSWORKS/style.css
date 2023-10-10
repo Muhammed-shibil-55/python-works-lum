@@ -1,0 +1,64 @@
+/* external sheet */
+/* basic selector */
+/* tag selector */
+body{
+    background-color:#2a0861;
+}
+
+h1{
+    color:#b3e7d7;
+}
+
+/* id selector */
+#head{
+    color:aqua;
+}
+
+/* class selector */
+.list_item{
+    color:#167499;
+    text-decoration: underline;
+    /* text-decoration-color: red; */
+}
+
+.item_odd{
+    text-decoration-color: darkred;
+}
+
+.item_even{
+    text-decoration-color: darkmagenta;
+}
+
+.main_head{
+    color:darkgoldenrod;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.items h1{
+    color: springgreen;
+}
+
+.head_1{
+    text-decoration: underline;
+}
+.head_2{
+    text-decoration: line-through;
+}
+.head_3{
+    text-decoration: overline;
+}
+
+.items h1:nth-child(1){
+    text-decoration: underline;
+}
+.items h1:nth-child(2){
+    text-decoration: line-through;
+}
+.items h1:nth-child(3){
+    text-decoration: overline;
+}
+

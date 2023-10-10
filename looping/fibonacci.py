@@ -1,0 +1,11 @@
+strt=1
+prev=0
+curr=1
+print(prev)
+print(curr)
+while(strt<=9):
+    fib=prev+curr
+    print(fib)
+    prev=curr
+    curr=fib
+    strt+=1

@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+.box{
+    width:9%;
+    height: 150px;
+    border: 1px solid black;
+    float:left;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.top1{
+    background-color:darkslategrey;
+    margin-left: 25%;
+}
+.top2{
+    background-color:darkgreen;
+}
+.top3{
+    background-color:green;
+}
+.top4{
+    background-color:lawngreen;
+}
+.top5{
+    background-color:gray;
+    margin-right: 25%;
+}
+.cntr1{
+    background-color:orange;
+    margin-left: 15%;
+}
+.cntr2{
+    background-color:crimson;
+}
+.cntr3{
+    background-color:firebrick;
+}
+.cntr4{
+    background-color:blueviolet;
+}
+.cntr5{
+    background-color:purple;
+}
+.cntr6{
+    background-color:darkmagenta;
+}
+.cntr7{
+    background-color:darkslategray;
+    margin-right: 15%;
+}
+.btm1{
+    background-color:darkcyan;
+    margin-left: 5%;
+}
+.btm2{
+    background-color:mediumspringgreen;
+}
+.btm3{
+    background-color:coral;
+}
+.btm4{
+    background-color:maroon;
+}
+.btm5{
+    background-color:rgb(31, 4, 4);
+}
+.btm6{
+    background-color:aqua;
+}
+.btm7{
+    background-color:lightseagreen;
+}
+.btm8{
+    background-color:darkorchid;
+}
+.btm9{
+    background-color:rgb(63, 20, 60);
+    margin-right: 5%;
+}

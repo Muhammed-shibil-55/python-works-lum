@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2%;
+}
+.left{
+    background-color: cadetblue;
+}
+.centre{
+    background-color:aquamarine;
+}
+.right{
+    background-color: aqua;
+}

@@ -1,0 +1,8 @@
+Quiz app
+
+subject               mode                      questions                           answer
+id int                id int                     id int                              id int
+name varchar()        name varchar()             text varchar()                      text varchar()
+                                                 subject_id int 1:m (subject)        question_id int 1:m(questions)
+                                                 mode_id int 1:m(mode)               is_correct boolean
+                                                 mark int

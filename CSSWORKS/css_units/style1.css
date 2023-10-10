@@ -1,0 +1,33 @@
+body{
+    background-color: darkorchid;
+}
+.parent{
+    width: 70%;
+    height: 650px;
+    border: 1px solid black;
+    background-color: darkgrey;
+}
+.one{
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.two{
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    background-color:lightblue;
+}
+.three{
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    background-color:lightgreen;
+}
+.four{
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    background-color:lightseagreen;
+}

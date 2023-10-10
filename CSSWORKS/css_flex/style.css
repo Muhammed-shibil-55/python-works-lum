@@ -1,0 +1,32 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color:cadetblue;
+    border: 1px solid black;
+    position: absolute;
+    display: flex;
+    /*x-axis=> justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* y-axis=>align-items: flex-end; */
+    /* align-items: flex-start; */
+    align-items: center;
+}
+.col{
+    width: 30%;
+    height: 200px;
+    background-color: darkkhaki;
+    border: 1px solid black;
+}
+
+.row .col:nth-child(1){
+    flex: 1;
+}
+
+.row .col:nth-child(2){
+    flex: 1;
+}
+

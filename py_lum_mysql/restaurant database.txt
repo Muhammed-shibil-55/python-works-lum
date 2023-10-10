@@ -1,0 +1,16 @@
+courses           cuisine		 dish			       dishvarient	    
+
+id int 		   id int                id int                         id int
+name varchar       name varchar          name varchar                   name varchar
+                                         course_id int 1:m(courses)      weight int
+                                         cuisine_id int 1:m(cuisine)     price int 
+                                                                        dish_id int 1:m(dish)
+
+
+
+customer 		orders
+
+id int                   id int
+name varchar             dish_varients_id int m:m(dishvarient)
+phone int                customer_id int 1:m(customer)
+                         status varchar

@@ -1,0 +1,9 @@
+n1=10
+n2=20
+print("sum= ",n1+n2)
+print("diff=",n1-n2)
+print("product=",n1*n2)
+print("div=",n1/n2)
+print("mod=",n1%n2) # returns the reminder
+print("expo=",n1**n2) # n1^(raise to)n2
+print("flrdiv=",n1//n2) # floor division(only returns the integer value)

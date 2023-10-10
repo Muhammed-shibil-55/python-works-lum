@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color: white;
+}
+.head-one{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.top{
+    width: 50%;
+    height:150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.topcol{
+    width: 18%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.center{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.cntrcol{
+    width: 13%;
+    height: 150px;
+}
+.bottom{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.btmcol{
+    width: 10%;
+    height: 150px;
+}
+
+.top .topcol:nth-child(1){
+    background-color: rgb(54, 55, 56);
+}
+.top .topcol:nth-child(2){
+    background-color: rgb(16, 88, 40);
+
+}
+.top .topcol:nth-child(3){
+    background-color:rgb(8, 84, 8);
+    
+}
+.top .topcol:nth-child(4){
+    background-color: rgb(40, 145, 44);
+}
+
+.top .topcol:nth-child(5){
+    background-color: rgb(225, 225, 169);
+}
+.center .cntrcol:nth-child(1){
+    
+    background-color: rgb(213, 128, 17);
+   
+}
+.center .cntrcol:nth-child(2){
+    background-color: rgb(252, 106, 101);
+}
+.center .cntrcol:nth-child(3){
+    background-color:rgb(234, 148, 220);
+}
+.center .cntrcol:nth-child(4){
+    background-color: rgb(167, 113, 182);
+}
+.center .cntrcol:nth-child(5){
+    background-color: rgb(99, 25, 169);
+}
+.center .cntrcol:nth-child(6){
+    background-color: rgb(118, 71, 125);
+}
+.center .cntrcol:nth-child(7){
+    
+    background-color: rgb(102, 91, 102);
+}
+
+.bottom .btmcol:nth-child(1){
+    
+    background-color: rgb(40, 138, 218);
+}
+.bottom .btmcol:nth-child(2){
+    background-color: rgb(144, 251, 125);
+}
+.bottom .btmcol:nth-child(3){
+    background-color: rgb(241, 152, 119);
+}
+.bottom .btmcol:nth-child(4){
+    background-color: rgb(174, 3, 151);
+}
+.bottom .btmcol:nth-child(5){
+    background-color: rgb(58, 39, 68);
+}
+.bottom .btmcol:nth-child(6){
+    background-color:cyan;
+}
+.bottom .btmcol:nth-child(7){
+    background-color:rgb(9, 112, 112);
+}
+.bottom .btmcol:nth-child(8){
+    background-color: rgb(122, 65, 136);
+}
+.bottom .btmcol:nth-child(9){
+    background-color: rgb(52, 36, 66);
+}
